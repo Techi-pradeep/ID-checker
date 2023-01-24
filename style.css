@@ -1,0 +1,43 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 90vw;
+    background-image: url("https://images.unsplash.com/photo-1448697138198-9aa6d0d84bf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTh8fG9mZmljZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.details{
+    opacity: 1;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+
+   
+    border-radius: 2rem;
+    height: 80vh;
+    width: 80vw;
+    background-color: whitesmoke;
+    text-align: center;
+    opacity: .7;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}
+
+input{
+    border: none;
+    border-radius: 2px;
+    height: 2.3rem;
+    background-color: rgb(20, 158, 226);
+    color: white;
+    text-align:center ;
+    opacity: 1;
+}
