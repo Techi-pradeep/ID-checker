@@ -10,7 +10,7 @@ function fetchdata() {
     let website = document.querySelector(".website")
     let company = document.querySelector(".company")
 
-    let json = fetch(`https://jsonplaceholder.typicode.com/users/${input}`).then(respo => respo.json()).then(data =>{
+     fetch(`https://jsonplaceholder.typicode.com/users/${input}`).then(respo => respo.json()).then(data =>{
          console.log(data);
   
 
@@ -19,7 +19,7 @@ function fetchdata() {
    mobile.innerHTML=`Mobile: ${data.phone}  `;
    zip .innerHTML=`Email: ${data.email} `;
    city.innerHTML=`Pincode: ${data.address.zipcode} `;
-   name.innerHTML=`City: ${data.address.city} `;
+   city.innerHTML=`City: ${data.address.city} `;
    website .innerHTML=`Website: ${data.website}`;
    company.innerHTML=`Company: ${data.company.name}  `;
   }  )
